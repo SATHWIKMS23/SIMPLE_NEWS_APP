@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News by Category</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>News by Category</h1>
+
+  <div id="categories">
+    <button onclick="loadCategory('business')">Business</button>
+    <button onclick="loadCategory('entertainment')">Entertainment</button>
+    <button onclick="loadCategory('health')">Health</button>
+    <button onclick="loadCategory('science')">Science</button>
+    <button onclick="loadCategory('sports')">Sports</button>
+    <button onclick="loadCategory('technology')">Technology</button>
+  </div>
+
+  <div id="news-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
